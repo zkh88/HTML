@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      table {
+        border: 1px solid;
+        width: 50%;
+        border-collapse: collapse;
+        /* Center the Table */
+        margin-left: auto;
+        margin-right: auto;
+        /* define the caption location*/
+        caption-side: bottom;
+      }
+      td,
+      th {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid;
+      }
+      th {
+        background: #ac0eeb;
+        height: 50px;
+        font-size: 25px;
+        color: White;
+      }
+      tr {
+        background: #d09fe3;
+      }
+      tr:hover {
+        background: #ed7505;
+      }
+      h1 {
+        text-align: center;
+        color: #8a0af2;
+      }
+      hr {
+        border: 3px solid #120eeb;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Styling Tables</h1>
+    <hr>
+    <table>
+      <caption>Table: Details of Participants</caption>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>age</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>SG</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>MY</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>IN</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>cynthia</td>
+        <td>US</td>
+        <td>35</td>
+      </tr>
+    </table>
+  </body>
+</html>
